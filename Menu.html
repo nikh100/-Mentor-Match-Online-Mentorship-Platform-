@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card {
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 18cm;
+    margin: 10px 20px;
+    background-color: white;
+  }
+  
+  .card img {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    border-radius: 15px 15px 0 0;
+  }
+   
+  .details {
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+  }
+  .details-sub {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .details-sub h5 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .price {
+    text-align: right;
+  }
+  .details p {
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 25px;
+    align-self: stretch;
+  }
+  .details button {
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 7px;
+    width: 200px;
+  }
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: blue;
+  }
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 1px;
+}
+
+   
+    </style>
+</head>
+<body style="background-image: url(https://i.pinimg.com/736x/3f/48/34/3f483410b8f2f1eb486efa7142deefc3.jpg);background-repeat: no-repeat;background-size: cover;">
+    
+        <center><div class="heading">
+            <h1 style="font-size:50px;color: brown;">Menu</h1>
+        </div></center>
+        <center><h1 style="border:2px solid darkblue ;background-color: darkblue; color: white;">Breakfast</h1></center>
+        <div class="container"> 
+        <div class="card">
+            <img src="https://i.ytimg.com/vi/Zs6Lb2d7Ed4/maxresdefault.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Aloo Paneer Paratha</h5>
+                    <h5 class="price"> ₹60 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+    <div class="card">
+        <img src="https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Masala Dosa</h5>
+                <h5 class="price">₹120</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://pipingpotcurry.com/wp-content/uploads/2020/12/Poha-Recipe-indori-Piping-Pot-Curry.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Poha</h5>
+                <h5 class="price"> ₹110 </h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.sharmispassions.com/wp-content/uploads/2013/07/RavaUpma2-e1659624509745.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Vegtable Upma</h5>
+                <h5 class="price">₹110</h5>
+            </div>
+            <p></p>
+            <button>Order now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+<!-- </div>       -->
+</div>
+    <div class="card">
+        <img src="https://images.healthshots.com/healthshots/en/uploads/2022/02/17155413/curd.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Curd</h5>
+                <h5 class="price"> ₹45 </h5>
+            </div>
+            <p></p>
+            <button>Order now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <center><h1 style="border:2px solid darkblue ;background-color: darkblue; color: white;">Lunch</h1></center>
+    <div class="container"> 
+        <div class="card">
+            <img src="https://curlytales.com/wp-content/uploads/2017/06/Shiv-Mishthan-Bhandar.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Chole Bhature</h5>
+                    <h5 class="price"> ₹90</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+
+      
+
+        <div class="card">
+            <img src="https://www.nehascookbook.com/wp-content/uploads/2022/09/Pindi-chole-kulcha-WS-1.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Chole Kulche</h5>
+                    <h5 class="price"> ₹100 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Punjabi-Aloo-Matar-Recipe.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Aloo Mutter Sabji</h5>
+                    <h5 class="price">₹150 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+
+      
+        <div class="card">
+            <img src="https://ministryofcurry.com/wp-content/uploads/2020/12/Bhindi-Masala-4-500x500.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Bhindi Masala </h5>
+                    <h5 class="price">₹150</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+    <div class="card">
+        <img src="https://geekrobocook.com/wp-content/uploads/2021/04/Rajma-chawal.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Rajma</h5>
+                <h5 class="price"> ₹ 180</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.thespruceeats.com/thmb/kUoSjpktuKuTQpxkm-OFgOxl8s4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-basic-white-rice-2355883-10-5b0da96eba6177003622896e.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Rice</h5>
+                <h5 class="price">₹200</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://i0.wp.com/www.indianrecipeinfo.com/wp-content/uploads/2011/12/Tandoori-Roti.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Butter Roti</h5>
+                <h5 class="price">₹30</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+
+        <center><h1 style="border:2px solid darkblue ;background-color: darkblue; color: white;">Snakes</h1></center>
+        <div class="container"> 
+        <div class="card">
+            <img src="https://stepintothekitchen.com/wp-content/uploads/2017/10/MasalaMaggiRecipe.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Maggi Masala</h5>
+                    <h5 class="price">₹90</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.kshvid.com/wp-content/uploads/still0121_00016-17-185169.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Sandwich</h5>
+                    <h5 class="price"> ₹60 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.3c8885f8bc6f18facedc7626368f5105.1.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>pizza</h5>
+                    <h5 class="price"> ₹450</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.cremeux.in/wp-content/uploads/2022/07/Veg-Cheese-Burger-1.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Veg. Burger</h5>
+                    <h5 class="price">₹50</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        </div>
+       <center><h1 style="border:2px solid darkblue ;background-color: darkblue; color: white;">Drinkes</h1></center>
+       <div class="container"> 
+       <div class="card">
+        <img src="https://www.teaforturmeric.com/wp-content/uploads/2021/11/Masala-Chai-Tea-Recipe-Card.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Tea</h5>
+                <h5 class="price"> ₹30</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Coffee</h5>
+                <h5 class="price">₹40</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://static.toiimg.com/thumb/53859488.cms?imgsize=150956&width=800&height=800"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Cold Coffee</h5>
+                <h5 class="price"> ₹70</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://aromaticessence.co/wp-content/uploads/2022/05/virhin_mojito_featured.jpg"
+            alt="">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Mojito</h5>
+                <h5 class="price">₹50</h5>
+            </div>
+            <p></p>
+            <button>Order Now</button>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    </div>
+        <center><h1 style="border:2px solid darkblue ;background-color: darkblue; color: white;">Dinner</h1></center>
+        <div class="container"> 
+        <div class="card">
+            <img src="https://amritsruae.com/blog/wp-content/uploads/2022/03/Pav-Bhaji-870x635-1.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Pav Bhaji</h5>
+                    <h5 class="price"> ₹100</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.spoonforkbacon.com/wp-content/uploads/2020/09/chow-mein-noodles-recipe-card.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Choumin</h5>
+                    <h5 class="price">₹170</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="http://nishamadhulika.com/imgpst/featured/no_oil_shahi_paneer.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Shahi Paneer</h5>
+                    <h5 class="price">₹250 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://rumkisgoldenspoon.com/wp-content/uploads/2021/02/Dal-makhani-ki-recipe.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Dal Makhni</h5>
+                    <h5 class="price"> ₹220</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://www.mirchitales.com/wp-content/uploads/2013/09/Palak-Paneer-Spinach-with-Indian-Cottage-Cheese-3-500x500.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Palaak Paneer</h5>
+                    <h5 class="price"> ₹140 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/dc/03/7a/dc037a83805ec7639e51e8462adec7b6.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Mix Vegetable</h5>
+                    <h5 class="price"> ₹200 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+       
+       
+
+        <div class="card">
+            <img src="https://ezshoppers.co/ranglapunjab/wp-content/uploads/sites/22/2020/08/Butter-Roti.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Tandoori Roti</h5>
+                    <h5 class="price"> ₹30 </h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://www.dishesguru.com/uploads/recipe/kdlnn-810.jpg"
+                alt="">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Butter Naan</h5>
+                    <h5 class="price"> ₹50</h5>
+                </div>
+                <p></p>
+                <button>Order Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div> 
+</div>
+</body>
+</html>

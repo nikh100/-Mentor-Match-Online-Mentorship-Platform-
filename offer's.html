@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>offer's</title>
+</head>
+<body>
+    <style>
+*{margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;  
+    box-sizing: border-box;
+    }
+    
+    .hello{
+    
+        position:absolute;
+        height:auto;
+        left:0px;
+        width:120px;
+        padding-left:10px;
+        padding-top:30px
+    }
+    
+    .p1{
+      text-align: center;
+      color: #614c08;
+      font-size: 40px;
+      border: dashed;
+      border-color: #614c08;
+       ;
+    
+    
+    }
+    h1{
+        text-align: center;
+        color: black;
+        padding:10px;
+        font-size: 50px;
+    
+    }
+    
+        
+    nav{
+        background-color:black ;
+        display: grid;
+        text-align: center;
+        margin:20px ;
+    }
+    nav ul{
+         list-style-type:none;
+    
+    }
+    nav ul a{
+        display:inline-block;
+        padding: 20px;
+        text-decoration: underline;
+        color:aliceblue;
+    }
+    nav ul a:hover{
+        background-color:rgb(95, 119, 116);
+    }
+    
+    .items{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        padding:30px 20px;
+        grid-column-gap:20px;
+        grid-row-gap:30px;
+    }
+    .item img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        cursor:pointer
+    }
+    .item img:hover{
+        transform:scale(1.04)
+    }
+    
+    .item h4{
+        padding:5px;
+        text-align:center;
+    
+    }
+    .item button{
+        padding:5px;
+        border:none;
+        outline:none;
+        background-color:black;
+        color:white;
+        cursor:pointer;
+        border-radius: 4px;
+        font-size:20px;
+        margin:0 auto;
+        text-align:center;
+    }
+    .item button:hover{
+        transform:scale(1.08);
+    }
+    
+    .container{
+        width: 100%;
+        display: grid;
+        max-width: 850px;
+        padding-left: 35%;
+    }
+    .login{
+        width: 400px;
+    }
+    form{
+        width: 250px;
+        margin: 60px auto;
+    }
+    h1{
+        margin: 20px;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+    hr{
+        border-top: 2px solid tomato;
+    }
+    
+    form label{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px;
+    }
+    input{
+        width: 100%;
+        margin: 2px;
+        border: none;
+        outline: none;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    button{
+        border: none;
+        outline: none;
+        padding: 8px;
+        width: 252px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+        background: tomato;
+    }
+    button:hover{
+        background: rgba(214, 86, 64, 1);
+    }
+    p{
+        margin: 20px;
+    }
+
+    </style>
+<p class="p1">Today's Special</p>
+
+
+<section class="items">
+    <div class="item">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/7c/6c/bb/good-looking-dishes.jpg" width="500px" height="350px">
+        <h4>Chocolate Salad</h4>
+        <button style="text-align:center">Order</button>
+    </div>    
+        <div class="item">
+            <img src="https://img.freepik.com/free-photo/penne-pasta-cream-cheese_1339-3958.jpg?size=626&ext=jpg&ga=GA1.2.530129039.1669711153" width="500px" height="350px">
+            <h4>White Sauce Pasta</h4>
+            <button style="text-align:center">Order</button>
+        </div>  
+            <div class="item">
+                <img src="https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?size=626&ext=jpg&ga=GA1.2.530129039.1669711153&semt=sph" width="500px" height="350px">
+                <h4>Veg Burger</h4>
+                <button style="text-align:center">Order</button>
+            </div>  
+                <div class="item">
+                    <img src="https://img.freepik.com/premium-photo/glass-with-mojito_77249-404.jpg?size=626&ext=jpg&ga=GA1.2.530129039.1669711153&semt=sph" width="500px" height="350px">
+                    <h4>Mint Mojito</h4>
+                    <button style="text-align:center">Order</button>    
+                </div>    
+                <div class="item">
+                    <img src="https://geekrobocook.com/wp-content/uploads/2021/03/6.-Paneer-Tikka-1200x900.jpg" width="500px" height="350px">
+                    <h4>Roasted Cheese</h4>
+                    <button style="text-align:center">Order</button>    
+                </div> 
+                <div class="item">
+                    <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/06/Kerala-Sweets.jpg" width="500px" height="350px">
+                    <h4>Sweet Rice Pudding</h4>
+                    <button style="text-align:center">Order</button>    
+                </div>    
+</section>   
+</section>
+
+</body>
+</html>
